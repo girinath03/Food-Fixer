@@ -1,0 +1,33 @@
+.breakfast1
+{
+    background-color: antiquewhite;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 2vh;
+}
+.breakfast1-header {
+    padding: 20px;
+    font-size: 2vw;
+    text-align: center;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.breakfast1-footer button {
+    background-color: #dc4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, scale 0.1s;
+}
+.breakfast1-footer button:hover {
+    background: #ff1e00;
+    scale: 1.05;
+}

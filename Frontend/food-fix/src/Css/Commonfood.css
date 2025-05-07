@@ -1,0 +1,20 @@
+#cm-bdy
+{
+    border: 1px solid black;
+    border: none;
+    width: fit-content;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    text-align: center;
+    color: brown;
+    height: 30vh;
+    border-radius: 5% 5% 5% 5%;
+}
+#cm-img img
+{
+    height: 25vh;
+    border-radius:5% 5% 0% 0%;
+}
+#cm-bdy:hover
+{
+    color: rgb(255, 255, 255);
+}

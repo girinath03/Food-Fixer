@@ -1,0 +1,79 @@
+/* Report1.css */
+
+.report1 {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px 30px;
+    background-color:antiquewhite;
+    border-radius: 16px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#report1-head span {
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+#report1-options,
+#report1-proof,
+#report1-suggestion {
+    margin-bottom: 20px;
+}
+
+.report1 label {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 8px;
+}
+
+.report1 select,
+.report1 input[type="file"],
+.report1 textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.report1 select:focus,
+.report1 textarea:focus,
+.report1 input[type="file"]:focus {
+    border-color: #fb4a0f;
+    outline: none;
+}
+
+.report1 textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+#report1-submits {
+    text-align: center;
+}
+
+#report1-submit {
+    padding: 12px 30px;
+    font-size: 16px;
+    background-color: #ee5d1f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease,scale 0.2s ease;
+
+}
+
+#report1-submit:hover {
+    background-color: #ff0000;
+    scale: 1.05;
+}

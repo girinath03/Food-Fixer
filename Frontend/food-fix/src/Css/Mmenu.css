@@ -1,0 +1,62 @@
+#mmenu-mbdy
+{
+   background-color: antiquewhite;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   row-gap: 2%;
+}
+#mmenu-bbdy
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+#mmenu-bdy
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 2vw;
+    row-gap: 2vh;
+    align-items: center;
+    padding: 1%;
+    width: 80%;
+}
+#mmenu-bdy .mmenu-div
+{
+    cursor: pointer; 
+    transition:scale 0.3s,box-shadow 0.3s;
+}
+#mmenu-bdy .mmenu-div:hover
+{
+    color: white;
+    background-color:  rgb(204, 109, 90);
+    scale: 1.05;
+    border-radius: 5%;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+#mmenu-submit
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+#mmenu-submit span
+{
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ee5d1f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease,scale 0.2s ease;
+}
+#mmenu-submit span:hover {
+    background-color: #ff0000;
+    scale: 1.05;
+}

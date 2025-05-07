@@ -1,0 +1,95 @@
+.commonfood1 {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  #cm1-head {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .cm1-day {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #c44f01;
+  }
+  
+  #cm1-dish > div {
+    margin-bottom: 40px;
+  }
+  
+  #cm1-dish > div > div:first-child {
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #4a4a4a;
+    margin-bottom: 15px;
+  }
+  
+  /* Grid layout for dishes */
+  #cm1-br-dish,
+  #cm1-lunch-dish,
+  #cm1-dinner-dish,
+  #cm1-snacks-dish,
+  #cm1-drinks-dish {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 20px;
+    padding: 0 10px;
+  }
+  
+  /* Food Card */
+  #cm1-br-dish div,
+  #cm1-lunch-dish div,
+  #cm1-dinner-dish div,
+  #cm1-snacks-dish div,
+  #cm1-drinks-dish div {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.2s ease;
+  }
+  
+  #cm1-br-dish div:hover,
+  #cm1-lunch-dish div:hover,
+  #cm1-dinner-dish div:hover,
+  #cm1-snacks-dish div:hover,
+  #cm1-drinks-dish div:hover {
+    transform: translateY(-5px);
+  }
+  
+  #cm1-br-dish img,
+  #cm1-lunch-dish img,
+  #cm1-dinner-dish img,
+  #cm1-snacks-dish img,
+  #cm1-drinks-dish img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  #cm1-br-dish span,
+  #cm1-lunch-dish span,
+  #cm1-dinner-dish span,
+  #cm1-snacks-dish span,
+  #cm1-drinks-dish span {
+    display: block;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+  }
+  

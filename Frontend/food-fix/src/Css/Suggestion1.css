@@ -1,0 +1,84 @@
+/* Suggestion1.css */
+
+.suggestion1 {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px 30px;
+    background-color:antiquewhite;
+    border-radius: 16px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.suggestion1 #sgg1-head {
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.suggestion1 #sgg1-img {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.suggestion1 #sgg1-img img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.suggestion1 #sgg1-bdy > div {
+    margin-bottom: 18px;
+}
+
+.suggestion1 label {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 6px;
+}
+
+.suggestion1 input[type="text"],
+.suggestion1 input[type="file"],
+.suggestion1 select {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.suggestion1 input:focus,
+.suggestion1 select:focus {
+    border-color: #ed7246;
+    outline: none;
+}
+
+.suggestion1 #sgg1-submit {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.suggestion1 #sgg1-submit button {
+    padding: 12px 30px;
+    font-size: 16px;
+    background-color: #ee5d1f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease,scale 0.2s ease;
+}
+
+.suggestion1 #sgg1-submit button:hover {
+    background-color: #ff0000;
+    scale: 1.03;
+}

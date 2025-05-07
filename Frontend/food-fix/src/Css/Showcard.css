@@ -1,0 +1,37 @@
+.showcard
+{
+    display: flex;
+    gap: 1vw;
+}
+.showcard-img img{
+    width: 5vw;
+    height: 10vh;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.showcard {
+  padding: 10px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.meal-list {
+  list-style: none;
+  padding: 0;
+}
+
+.meal-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 8px 0;
+}
+
+.meal-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  object-fit: cover;
+}
