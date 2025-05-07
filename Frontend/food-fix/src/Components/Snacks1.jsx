@@ -27,14 +27,16 @@ export default function Snacks1(){
             <div className="snacks1-header">
                 <span>SNACKS ITEMS</span>
             </div>
-            <div className="card-container">
-                <Card name="CHIPS" img={chipsImg} choice='0' day="MONDAY" range='3' suffix='Pocket'/>
-                <Card name="ONION BUJJY" img={onionbujjyImg} choice='0' day="TUESDAY" range='3' suffix='Bujjy'/>
-                <Card name="POTATO FRY" img={potatofryImg} choice='0' day="WEDNESDAY" range='2' suffix='Plates'/>
-                <Card name="BUN BUTTER" img={bunbutterImg} choice='0' day="THURSDAY" range='3' suffix='Bun'/>
-                <Card name="SUNDAL" img={sundalImg} choice='0' day="FRIDAY" range='3' suffix='Plates'/>
-                <Card name="SAMOSA" img={samosaImg} choice='0' day="SATURDAY" range='3' suffix='Samosa'/>
-                <Card name="EGG PUFFS" img={eggpuffsImg} choice='0' day="SUNDAY" range='3' suffix='Puffs'/>
+            <div className="snacks1-bdy">
+                <div className="card-container">
+                    <Card name="CHIPS" img={chipsImg} choice='0' day="MONDAY" range='3' suffix='Pocket'/>
+                    <Card name="ONION BUJJY" img={onionbujjyImg} choice='0' day="TUESDAY" range='3' suffix='Bujjy'/>
+                    <Card name="POTATO FRY" img={potatofryImg} choice='0' day="WEDNESDAY" range='2' suffix='Plates'/>
+                    <Card name="BUN BUTTER" img={bunbutterImg} choice='0' day="THURSDAY" range='3' suffix='Bun'/>
+                    <Card name="SUNDAL" img={sundalImg} choice='0' day="FRIDAY" range='3' suffix='Plates'/>
+                    <Card name="SAMOSA" img={samosaImg} choice='0' day="SATURDAY" range='3' suffix='Samosa'/>
+                    <Card name="EGG PUFFS" img={eggpuffsImg} choice='0' day="SUNDAY" range='3' suffix='Puffs'/>
+                </div>
             </div>
             <div className="snacks1-footer">
                 <button onClick={handleClick}>MAIN MENU</button>

@@ -41,17 +41,19 @@ export default function Drinks1()
             <div className="drinks1-header">
                 <span>DRINKS ITEMS</span>
             </div>
-            <div className="card-container">
-                <Card name="TEA" img={teaImg} choice='*' />
-                <Card name="COFFEE" img={coffeeImg} choice='*' />
-                <Card name="Milk" img={milkimg}  choice='*' />
-                <Card name="LEMON TEA" img={lemonTeaImg} crange='2'  noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount}/>
-                <Card name="SODA" img={sodaImg} crange='2' noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount}/>
-                <Card name="PANNER" img={pannerImg} crange='2' noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount}/>
-                <Card name="MILKSHAKES" img={milkshakesImg} crange='2' noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount}/>
-                <Card name="FRUIT JUICE" img={fruitJuiceImg} crange='2' noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount}/>
-                <Card name="SARBATH" img={sarbathImg} crange='2' noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount}/>
-             </div>
+            <div className="drinks1-bdy">
+                <div className="card-container">
+                    <Card name="TEA" img={teaImg} choice='*' />
+                    <Card name="COFFEE" img={coffeeImg} choice='*' />
+                    <Card name="Milk" img={milkimg}  choice='*' />
+                    <Card name="LEMON TEA" img={lemonTeaImg} crange='2'  noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount}/>
+                    <Card name="SODA" img={sodaImg} crange='2' noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount}/>
+                    <Card name="PANNER" img={pannerImg} crange='2' noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount}/>
+                    <Card name="MILKSHAKES" img={milkshakesImg} crange='2' noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount}/>
+                    <Card name="FRUIT JUICE" img={fruitJuiceImg} crange='2' noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount}/>
+                    <Card name="SARBATH" img={sarbathImg} crange='2' noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount}/>
+                </div>
+            </div>
             <div className="drinks1-footer">
                 <button>SUBMIT</button>
             </div>

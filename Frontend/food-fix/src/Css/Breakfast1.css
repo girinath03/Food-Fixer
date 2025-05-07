@@ -4,8 +4,17 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    
     text-align: center;
     row-gap: 2vh;
+}
+.breakfast1-body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
 }
 .breakfast1-header {
     padding: 20px;
@@ -16,7 +25,8 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: center;    
+    width: 90vw;
+    justify-content: center;   
 }
 .breakfast1-footer button {
     padding: 10px 20px;

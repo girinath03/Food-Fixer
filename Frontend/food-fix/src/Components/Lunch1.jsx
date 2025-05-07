@@ -44,22 +44,23 @@ export default function Lunch1()
             <div className="lunch1-header">
                 <span>LUNCH ITEMS</span>
             </div>
-            <div className="card-container">
-                    
-                <Card name="RICE" img={drrice} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount} choice='*'/>
-                <Card name="CURD" img={drcurd} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount} choice='*'/>
-                <Card name="RASAM" img={drrasam} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount} choice='*'/>
-                <Card name="APPALAM" img={drappalam} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount} choice='*'/>
-                <Card name="SAMBAR" img={drsambar} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount} choice='*'/>
-                <Card name="CHAPATI" img={drchapatiLunch} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount} crange='5'/>
-                <Card name="DAL" img={drdal} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount} crange='5'/>
-                <Card name="VEGETABLE CURRY" img={drvegetablecurry} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount} crange='5'/>
-                <Card name="FRIED RICE" img={drfriedrice} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount} crange='5'/>
-                <Card name="CURD RICE" img={drcurdri} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount} crange='5'/>
-                <Card name="PAROTTA" img={drparotta} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount} crange='5'/>
-                <Card name="PULAO" img={drpulao} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount} crange='5'/>
-                <Card name="KOOTU" img={drkootu} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount} crange='5'/>
+            <div className="lunch1-bdy">
+                <div className="card-container">
+                    <Card name="RICE" img={drrice} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount} choice='*'/>
+                    <Card name="CURD" img={drcurd} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount} choice='*'/>
+                    <Card name="RASAM" img={drrasam} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount} choice='*'/>
+                    <Card name="APPALAM" img={drappalam} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount} choice='*'/>
+                    <Card name="SAMBAR" img={drsambar} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount} choice='*'/>
+                    <Card name="CHAPATI" img={drchapatiLunch} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount} crange='5'/>
+                    <Card name="DAL" img={drdal} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount} crange='5'/>
+                    <Card name="VEG CURRY" img={drvegetablecurry} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount} crange='5'/>
+                    <Card name="FRIED RICE" img={drfriedrice} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount} crange='5'/>
+                    <Card name="CURD RICE" img={drcurdri} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount} crange='5'/>
+                    <Card name="PAROTTA" img={drparotta} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount} crange='5'/>
+                    <Card name="PULAO" img={drpulao} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount} crange='5'/>
+                    <Card name="KOOTU" img={drkootu} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount} crange='5'/>
 
+                </div>
             </div>
             <div className="lunch1-footer">
                 <button>SUBMIT</button>

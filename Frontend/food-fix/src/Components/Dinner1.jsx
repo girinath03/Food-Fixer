@@ -42,18 +42,19 @@ export default function Dinner1()
             <div className="dinner1-header">
                 <span>DINNER ITEMS</span>
             </div>
-            <div className="card-container">
-            <Card name="IDLI" img={dridly} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount}/>
-            <Card name="DOSA" img={drdosa} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount}/>
-            <Card name="UTTAPAM" img={druttapam} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount}/>
-            <Card name="PONGAL" img={drpongal} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount}/>
-            <Card name="CHAPATI" img={drchapati} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount}/>
-            <Card name="ADAI" img={dradai} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount}/>
-            <Card name="RAVA DOSA" img={drravadosa} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount}/>
-            <Card name="UPMA" img={drupma} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount}/>
-            <Card name="APPAM" img={drappam} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount}/>
-            <Card name="IDIYAPPAM" img={dridiyappam} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount}/>
-
+            <div className="dinner1-bdy">
+                <div className="card-container">
+                <Card name="IDLI" img={dridly} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount}/>
+                <Card name="DOSA" img={drdosa} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount}/>
+                <Card name="UTTAPAM" img={druttapam} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount}/>
+                <Card name="PONGAL" img={drpongal} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount}/>
+                <Card name="CHAPATI" img={drchapati} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount}/>
+                <Card name="ADAI" img={dradai} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount}/>
+                <Card name="RAVA DOSA" img={drravadosa} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount}/>
+                <Card name="UPMA" img={drupma} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount}/>
+                <Card name="APPAM" img={drappam} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount}/>
+                <Card name="IDIYAPPAM" img={dridiyappam} noitems={noitems} incrementCount={incrementCount} decrementCount={decrementCount}/>
+                </div>
             </div>
             <div className="dinner1-footer">
                 <button>SUBMIT</button>     
