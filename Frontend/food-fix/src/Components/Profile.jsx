@@ -4,9 +4,14 @@ import Cartt from '../Images/cart.png';
 import { useState } from 'react';
 import Cart from './Cart';
 import { FaArrowLeft } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
 
 export default function Profile() {
     const [cart, setCart] = useState(false);
+    const navigate = useNavigate();
+    const handleBack = () => {
+        navigate(-1);
+    };
     return(
         <div className="profile">
             <div id='profile-corner'>
@@ -18,9 +23,9 @@ export default function Profile() {
                 <div className='cart-icon' onClick={()=>setCart(true)}>
                     <img src={Cartt} alt=""/>
                 </div>
-            </div>
-            <div>
-                <FaArrowLeft className='back-arrow'/>
+                <div>
+                    <FaArrowLeft className='back-arrow'onClick={handleBack}/>
+                </div>
             </div>
 
             {   cart && <Cart onClose={()=>setCart(false)}/>    }

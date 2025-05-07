@@ -1,4 +1,4 @@
-import Luffy from '../Images/Luffy.jpeg';  
+import Luffy from '../Images/report.avif';  
 import { useNavigate } from 'react-router-dom';
 import '../Css/Report.css';
 
