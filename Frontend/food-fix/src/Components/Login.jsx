@@ -44,6 +44,11 @@ export default function Login() {
                                     <div id='lg-inputs'>
                                         <input type="text" id="lg-username" placeholder='Username' required /><br />
                                         <input type="text" id="lg-userid" placeholder='UserId' required /><br />
+                                        <select name="lg-roll" id="lg-roll" required>
+                                            <option value="lg-roll">Select Roll</option>
+                                            <option value="lg-admin">Admin</option>
+                                            <option value="lg-student">Student</option>
+                                        </select><br />
                                         <input type="email" id="lg-email" placeholder='Email' optional /><br />
                                         <input type="password" id="lg-password" placeholder='Password' required /><br />
                                     </div>
@@ -64,6 +69,11 @@ export default function Login() {
                                     <div id='sg-inputs'>
                                         <input type="text" id="sg-username" placeholder='Username' required /><br />
                                         <input type="text" id="sg-userid" placeholder='UserId' required /><br />
+                                        <select name="sg-roll" id="sg-roll" required>
+                                            <option value="sg-roll">Select Roll</option>
+                                            <option value="sg-admin">Admin</option>
+                                            <option value="sg-student">Student</option>
+                                        </select><br />
                                         <input type="email" id="sg-email" placeholder='Email' required /><br />
                                         <input type="password" id="sg-password" placeholder='Password' required /><br />
                                         <input type="password" id="sg-cpassword" placeholder='Confirm Password' required /><br />
