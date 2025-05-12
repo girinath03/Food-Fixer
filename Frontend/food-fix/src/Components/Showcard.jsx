@@ -6,6 +6,7 @@ export default function Showcard({ items = [] }) {
         morning: [],
         afternoon: [],
         night: [],
+        evening: [],
     };
 
     items.forEach(item => {
@@ -21,6 +22,9 @@ export default function Showcard({ items = [] }) {
             )}
             {grouped.afternoon.length > 0 && (
                 <MealGroup title="🍛 Lunch" items={grouped.afternoon} />
+            )}
+            {grouped.evening.length > 0 && (
+                <MealGroup title="🍹 Evening Snacks" items={grouped.evening} />
             )}
             {grouped.night.length > 0 && (
                 <MealGroup title="🌙 Dinner" items={grouped.night} />

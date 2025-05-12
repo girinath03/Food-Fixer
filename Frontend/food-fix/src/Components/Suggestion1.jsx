@@ -30,6 +30,7 @@ export default function Suggestion1() {
                         <option value="select">Select</option>
                         <option value="Morning">Morning</option>
                         <option value="Afternoon">Afternoon</option>
+                        <option value="Afternoon">Evening</option>
                         <option value="Night">Night</option>
                     </select>
                 </div>

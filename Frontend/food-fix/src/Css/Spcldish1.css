@@ -1,4 +1,4 @@
-.breakfast1
+.spcldish1
 {
     background-color: antiquewhite;
     min-height: 100vh;
@@ -7,7 +7,7 @@
     text-align: center;
     row-gap: 2vh;
 }
-.breakfast1-body
+.spcldish1-body
 {
     display: flex;
     flex-direction: column;
@@ -15,10 +15,13 @@
     justify-content: center;
     gap: 2vh;
 }
-.breakfast1-header {
+.spcldish1-header {
     padding: 20px;
     font-size: 2vw;
     text-align: center;
+}
+.spcldish1-header > span:nth-child(3) {
+    color: #ff0000;
 }
 .card-container {
     display: flex;
@@ -27,7 +30,7 @@
     width: 90vw;
     justify-content: center;   
 }
-.breakfast1-footer button {
+.spcldish1-footer button {
     padding: 10px 20px;
     font-size: 16px;
     background: rgb(214, 137, 85);
@@ -38,7 +41,7 @@
     transition: background-color 0.3s ease,scale 0.2s ease;
     margin: 2% 0%;
 }
-.breakfast1-footer button:hover {
+.spcldish1-footer button:hover {
     background-color: #ff0000;
     scale: 1.05;
     

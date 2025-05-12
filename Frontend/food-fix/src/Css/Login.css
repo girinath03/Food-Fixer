@@ -164,6 +164,7 @@
     width: 50vw;
     height: 60vh;
     position: relative;
+    transform: perspective(preserve-3d);
 }
 
 #flipper {

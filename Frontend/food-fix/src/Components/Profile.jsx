@@ -5,6 +5,7 @@ import { useState } from 'react';
 import Cart from './Cart';
 import { FaArrowLeft } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
+import Editpr from '../Images/editpr.png';
 
 export default function Profile() {
     const [cart, setCart] = useState(false);
@@ -22,6 +23,9 @@ export default function Profile() {
             <div className='cart'>
                 <div className='cart-icon' onClick={()=>setCart(true)}>
                     <img src={Cartt} alt=""/>
+                </div>
+                <div className='cart-icon'>
+                    <img src={Editpr} alt="" />
                 </div>
                 <div>
                     <FaArrowLeft className='back-arrow'onClick={handleBack}/>

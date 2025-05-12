@@ -8,6 +8,8 @@ import Drinks from "./Drinks";
 import Report from "./Report";
 import Suggestion from "./Suggestion";
 import Commonfood from "./Commonfood";
+import Foodrs from "./Foodrs";
+import Spcldish from "./Spcldish";
 
 export default function Mmenu() {
     return(
@@ -25,6 +27,8 @@ export default function Mmenu() {
                     <div id='memenu-sg' className="mmenu-div"><Suggestion /></div>
                     <div id="mmenu-rp" className="mmenu-div"><Report/></div>
                     <div id="mmenu-cm" className="mmenu-div"><Commonfood/></div>
+                    <div id="mmenu-rs" className="mmenu-div"><Foodrs/></div>
+                    <div id="mmenu-spclds" className="mmenu-div"><Spcldish /></div>
                 </div>
             </div>
             <div id="mmenu-submit">

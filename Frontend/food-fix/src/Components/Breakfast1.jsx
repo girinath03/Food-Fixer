@@ -5,7 +5,6 @@ import bridly from '../Images/idly.jpg';
 import brdosa from '../Images/dosa.jpg';
 import brpongal from '../Images/pongal.jpg';
 import brupma from '../Images/upma.jpg';
-
 import brpoha from '../Images/poha.jpeg';
 import brvada from '../Images/vada.jpeg';
 import brpoori from '../Images/poori.jpg';

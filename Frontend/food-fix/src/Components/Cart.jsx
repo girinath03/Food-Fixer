@@ -22,7 +22,11 @@ export default function Cart({onClose}) {
         { name: "RAITA", img: image, time: 'Morning' },
         { name: "CURRY", img: image, time: 'Afternoon' },
         { name: "DAL", img: image, time: 'Night' },
-        { name: "RAITA", img: image, time: 'Morning' }
+        { name: "RAITA", img: image, time: 'Morning' },
+        { name: "JUICE", img: image, time: 'Evening' },
+        { name: "COFFEE", img: image, time: 'Evening' },
+        { name: "TEA", img: image, time: 'Evening' },
+        { name: "SMOOTHIE", img: image, time: 'Evening' }
     ];
     return(
         <div className="overlay" onClick={onClose}>

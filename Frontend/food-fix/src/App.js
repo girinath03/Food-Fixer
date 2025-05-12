@@ -14,6 +14,9 @@ import Drinks1 from './Components/Drinks1';
 import Report1 from './Components/Report1';
 import Suggestion1 from './Components/Suggestion1';
 import Commonfood1 from './Components/Commonfood1';
+import Foodrs1 from './Components/Foodrs1';
+import Spcldish1 from './Components/Spcldish1';
+import Queries from './Components/Admin/Queries';
 
 function App() {
   return (
@@ -33,6 +36,9 @@ function App() {
         <Route path='/report1' element={<Report1/>}></Route>
         <Route path='/suggestion1' element={<Suggestion1/>}></Route>
         <Route path='/commonfood1' element={<Commonfood1/>}></Route>
+        <Route path='/foodrs1' element={<Foodrs1 />}></Route>
+        <Route path='/spcldish1' element={<Spcldish1 />}></Route>
+        <Route path='/adminPanel' element={<Queries />} />
       </Routes> 
    </>
   );
