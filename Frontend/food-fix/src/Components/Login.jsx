@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../Css/Login.css';
 import foodfix from '../Images/foof-fix.webp';
 import { useNavigate } from 'react-router-dom';
-import axios from 'axios';
+// import axios from 'axios';
 
 export default function Login() {
     const navigate = useNavigate();
@@ -22,55 +22,74 @@ export default function Login() {
         password: "", 
         confirmPassword: "" 
     });
-
-    //Handle Login data to usestate
     const handleLogdata = (e) => {
+        
         setLogdata({ ...logdata, [e.target.name]: e.target.value });
     }
     // Handle input changes
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
     };
+    
+    //For temporary login and signup
+    const handleSubmit = (e) => {
+        navigate('/');
+    }
+    const handleLogin = (e) => {
+        if(logdata.role === "admin") {
+            navigate('/adminmenu');
+        }
+        else{
+            navigate('/mmenu');
+        }
+        
+    }
+
+
+
+    //Handle Login data to usestate
 
     // Handle Login (Axios POST)
-    const handleLogin = async (e) => {
-        e.preventDefault();
-        try {
+    // const handleLogin = async (e) => {
+        // e.preventDefault();
+        // try {
             // alert("Login data: " + JSON.stringify(logdata)); // Show login data
-            const response = await axios.post("http://localhost:8080/api/login", { 
-                username: logdata.username, 
-                password: logdata.password,
-                role: logdata.role
-            });
-            alert(response.data); // Show response from backend
+            // const response = await axios.post("http://localhost:8080/api/login", { 
+            // const response = await axios.post("https:foodfixer.vercel.app/api/login", { 
+                // username: logdata.username, 
+                // password: logdata.password,
+                // role: logdata.role
+            // });
+            // alert(response.data); // Show response from backend
 
             // Optional: Role-based redirection
-            if (logdata.role === "admin") {
-                navigate('/adminPanel');
-            } else {
-                navigate('/mmenu');
-            }
+            // if (logdata.role === "admin") {
+                // navigate('/adminmenu');
+            // } else {
+                // navigate('/mmenu');
+            // }
 
-        } catch (error) {
-            console.error("Login error:", error);
-            alert(error.response.data); // Show error message from backend
-            alert("Login failed!");
-        }
-    };
+        // } catch (error) {
+            // console.error("Login error:", error);
+            // alert(error.response.data); // Show error message from backend
+            // alert("Login failed!");
+        // }
+    // };
 
     // Handle Signup (Axios POST)
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        try {
-            const response = await axios.post("http://localhost:8080/api/signup", formData);
-            alert(response.data); // Show response from backend
-            navigate('/');
-        } 
-        catch (error) {
-            console.error("Signup error:", error);
-            alert(error.response.data); // Show error message from backend
-        }
-    };
+    // const handleSubmit = async (e) => {
+        // e.preventDefault();
+        // try {
+            // const response = await axios.post("http://localhost:8080/api/signup", formData);
+            // const response = await axios.post("https://foodfixer.vercel.app/api/signup", formData);
+            // alert(response.data); // Show response from backend
+            // navigate('/');
+        // } 
+        // catch (error) {
+            // console.error("Signup error:", error);
+            // alert(error.response.data); // Show error message from backend
+        // }
+    // };
 
     return (
         <div id='lg-bdy'>

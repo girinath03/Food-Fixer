@@ -1,0 +1,19 @@
+#ad-menu
+{
+    background-color: antiquewhite;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2%;
+}
+
+/* Other Css file overwritted from mmenu */
+
+#ad-menuhead
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bold;
+}

@@ -24,6 +24,16 @@ export default function Report1()
                     <option value="6">Food not served</option>
                 </select>
             </div>
+            <div id='sgg1-timing'>
+                    <label htmlFor="timing">Food Timing:</label>
+                    <select name="timing" id="timing">
+                        <option value="select">Select</option>
+                        <option value="Morning">Morning</option>
+                        <option value="Afternoon">Afternoon</option>
+                        <option value="Afternoon">Evening</option>
+                        <option value="Night">Night</option>
+                    </select>
+            </div><br/>
 
             <div id="report1-proof">
                 {/* Proof Image */}
@@ -33,8 +43,8 @@ export default function Report1()
 
             <div id="report1-suggestion">
                 {/* Suggestion for this report1 issues */}
-                <label htmlFor="">Suggestion : </label>
-                <textarea name="suggestion" id="suggestion" cols="30" rows="10" placeholder="Enter your suggestion"></textarea>
+                <label htmlFor="">Complaint : </label>
+                <textarea name="suggestion" id="suggestion" cols="30" rows="10" placeholder="Issues description 120 words"></textarea>
             </div>
 
             <div id="report1-submits">

@@ -1,0 +1,112 @@
+#ad-queries1-mbdy
+{
+    background-color:antiquewhite;
+    min-height: 100vh;
+}
+#ad-queries1-bdy
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+    gap: 20px;
+}
+#ad-queries1-complaint-main,#ad-queries1-suggesstion-main
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    row-gap: 50px;
+    /* column-gap: 40px; */
+}
+#ad-queries1-complaint-header,#ad-queries1-suggesstion-header
+{
+    text-align: center;
+    color: crimson;
+    font-weight: bold;
+    padding: 20px;
+}
+#ad-queries1-complaint-header span,#ad-queries1-suggesstion-header span
+{
+    font-size: 2.5vw;
+    text-transform:capitalize;
+    font-weight: bold;
+    text-shadow: 0px 2px 3px rgba(151, 32, 2, 0.8);
+}
+.ad-queries1-card
+{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 2vh; */
+    padding: 20px;
+    width: 350px;
+    height: fit-content;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 10%);
+    border-radius: 10px;
+}
+.ad-queries1-card:hover
+{
+    box-shadow: 0px 0px 20px rgb(0, 0, 0, 15%);
+    scale: 1.05;
+    transition: all 0.3s ease;
+}
+.ad-queries1-card-header
+{
+    font-size: 30px;
+    text-align: center;
+}
+.ad-queries1-card-header p{
+    color: brown;
+    font-size: 25px;
+    text-transform:capitalize;
+}
+.ad-queries1-card-complaint , .ad-queries1-card-suggestion
+{
+    font-size: 18px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.ad-queries1-card-complaint p span , .ad-queries1-card-suggestion p span{
+    color: rgb(156, 6, 6);
+    font-size: 20px;
+    text-transform:capitalize;
+    font-weight: bold;
+}
+.ad-queries1-card-footer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ad-queries1-card-footer button
+{
+    padding: 10px 20px;
+    font-size: 16px;
+    background: rgb(214, 137, 85);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease,scale 0.2s ease;
+    margin: 2% 0%;
+}
+.ad-queries1-card-footer button:hover
+{
+    background-color: #ff0000;
+    scale: 1.05;
+}
+.ad-queries1-card-complaint #ad-queries-img , .ad-queries1-card-suggestion #ad-queries-img 
+{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}

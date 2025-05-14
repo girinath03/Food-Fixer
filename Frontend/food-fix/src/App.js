@@ -16,7 +16,11 @@ import Suggestion1 from './Components/Suggestion1';
 import Commonfood1 from './Components/Commonfood1';
 import Foodrs1 from './Components/Foodrs1';
 import Spcldish1 from './Components/Spcldish1';
-import Queries from './Components/Admin/Queries';
+// import Queries from './Components/Admin/Queries';
+// import Foodaccess from './Components/Admin/Foodaccess';
+import Foodaccess1 from './Components/Admin/Foodaccess1';
+import Mmenuadmin from './Components/Admin/Mmenuadmin';
+import Queries1 from './Components/Admin/Queries1';
 
 function App() {
   return (
@@ -38,7 +42,9 @@ function App() {
         <Route path='/commonfood1' element={<Commonfood1/>}></Route>
         <Route path='/foodrs1' element={<Foodrs1 />}></Route>
         <Route path='/spcldish1' element={<Spcldish1 />}></Route>
-        <Route path='/adminPanel' element={<Queries />} />
+        <Route path='/adminmenu' element={<Mmenuadmin />} />
+        <Route path='/adminqueries1' element={<Queries1 />} />
+        <Route path='/foodaccess1' element={<Foodaccess1 />} />
       </Routes> 
    </>
   );

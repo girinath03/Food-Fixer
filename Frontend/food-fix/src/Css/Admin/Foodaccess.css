@@ -1,4 +1,4 @@
-#ad-queries-bdy
+#fac-bdy
 {
     border: 1px solid black;
     border: none;
@@ -9,12 +9,12 @@
     height: 30vh;
     border-radius: 5% 5% 5% 5%;
 }
-#ad-queries-img img
+#fac-img img
 {
     height: 25vh;
     border-radius:5% 5% 0% 0%;
 }
-#ad-queries-bdy:hover
+#fac-bdy:hover
 {
     color: rgb(255, 255, 255);
 }

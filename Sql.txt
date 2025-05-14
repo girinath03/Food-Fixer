@@ -1,0 +1,45 @@
+
+
+
+
+
+Break Fast Table :
+
+        1. Need table for breakfast and admin need to update the table by sending the name,etc,..
+        2. Then this breakfast table need to accessed by the forntend, then the value and image can be displayed in frontend.
+        3. Columns are name , Image , range , count
+
+Lunch Table :
+
+        1. Need table for lunch and admin need to update the lunch table.
+
+
+Dinner Table :
+
+Suggestion Table :
+
+Snack Table :
+
+Report Table :
+
+Common Table :
+
+Food Cart :
+
+Food Result :
+
+
+
+
+
+
+
+
+
+
+        br , lu , din , sn , dr , co , admin entering the name,type,range,image,
+
+        Student table for report and suggestion 
+        name report and query and reply
+
+        admin answers filtered by report and  suggestion reply.  

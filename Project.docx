@@ -1,0 +1,35 @@
+Database Schema
+
+SIGN UP 
+    Database name : sigupdetails.
+    Columns => id,username,userId,Role,email,password,confirm password.
+
+Login 
+    Database name : logindetails.
+    Columns => id,username,userId,Role,password.
+
+Breakfast
+
+Lunch 
+
+Dinner 
+
+Drinks
+
+Snacks
+
+Report
+
+Suggestion 
+
+Cart
+
+Common Food
+
+Special Dish
+
+Profile
+
+Quries for admin
+
+
